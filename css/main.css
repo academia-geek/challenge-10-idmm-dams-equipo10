@@ -15,6 +15,7 @@ body::before{
     background-repeat: no-repeat;
     background-position: right;    
     text-align: justify; 
+    background-color:  hsl(240, 78%, 98%);
        
    
 }
@@ -22,7 +23,7 @@ body::before{
 h1 {
     text-align: center;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 65px;
     color: hsl(237, 63%, 64%);
 }
 
@@ -43,10 +44,9 @@ h1 {
 }    
 
 .switch-container {
-    padding-top: 0.3125rem; 
+    padding-top: 50px; 
     justify-content: center;
-    padding-top: 100px;
-
+    
 }
 
 .lbl {
@@ -90,9 +90,8 @@ h1 {
 } 
 
 
-li{
-    
-    color: #808994;
+li{    
+    color: hsl(234, 14%, 74%);
     border-top: 2px solid;
     list-style: none;
     position: relative;
@@ -129,7 +128,7 @@ h4{
 }*/
 
 .contenedor { 
-    margin-top: 15em;
+    margin-top: 5em;
     background-image: url(/images/bg-bottom.svg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -138,7 +137,7 @@ h4{
 }
 
 .tarjeta{
-    background-color: rgb(248, 245, 245);
+    background-color: rgb(255, 255, 255);
     border-radius: 5%;
     height: 400px;
     width: 300px;

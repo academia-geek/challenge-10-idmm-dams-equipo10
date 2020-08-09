@@ -1,9 +1,24 @@
-body{
+body::before{
+
     Font-size: 15px;
     
     font-family: 'Montserrat', sans-serif;
     
-    background-color: linear-gradient(-90deg , hsl(235, 11%, 46%), hsl(237, 63%, 64%));
+    
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg,hsl(237, 24%, 84%) , hsl(236, 29%, 91%)), url(/images/bg-top.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    text-align: justify;
     
 
   
@@ -64,6 +79,7 @@ h4{
     width: 80%;
     background: linear-gradient(-90deg , hsl(235, 11%, 46%), hsl(237, 63%, 64%)); 
     cursor: pointer;
+    padding-bottom: 5px;
 }
 
 footer{

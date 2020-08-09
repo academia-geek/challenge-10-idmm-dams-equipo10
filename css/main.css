@@ -1,10 +1,7 @@
 body::before{
 
-    Font-size: 15px;
-    
-    font-family: 'Montserrat', sans-serif;
-    
-    
+    Font-size: 15px;    
+    font-family: 'Montserrat', sans-serif;   
     content: '';
     position: fixed;
     top: 0;
@@ -13,17 +10,82 @@ body::before{
     width: 100%;
     z-index: -1;
     background: var(--color-darkblue);
-    background-image: linear-gradient( 115deg,hsl(237, 24%, 84%) , hsl(236, 29%, 91%)), url(/images/bg-top.svg);
-    background-size: cover;
+    background-image: url(/images/bg-top.svg);
+    background-size: auto;
     background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    text-align: justify;
-    
-
-  
+    background-position: right;    
+    text-align: justify; 
+       
    
 }
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 35px;
+    color: hsl(237, 63%, 64%);
+}
+
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.anual {
+    width: 100px;
+    color: hsl(237, 63%, 64%);
+}
+
+.mensual {
+    width: 100px;
+    padding-left: 40px;
+    color: hsl(237, 63%, 64%);
+}    
+
+.switch-container {
+    padding-top: 0.3125rem; 
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.lbl {
+    display: block;
+    width: 65px;
+    height: 33px;
+    background-color: #808994;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.lbl::after {
+    content:'';
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 100px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    transition: .2s;
+}
+
+#switch:checked + .lbl::after {
+    left: 36px;
+}
+
+#switch:checked + .lbl {
+    left: 36px;
+    background: linear-gradient(-90deg , hsl(235, 11%, 46%), hsl(237, 63%, 64%));
+}
+
+ #switch {
+    display: none;
+} 
+
+
 li{
     
     color: #808994;
@@ -62,9 +124,12 @@ h4{
     width: 100%;
 }*/
 
-.contenedor{
- 
+.contenedor { 
     margin-top: 15em;
+    background-image: url(/images/bg-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
 
 }
 
@@ -80,9 +145,5 @@ h4{
     background: linear-gradient(-90deg , hsl(235, 11%, 46%), hsl(237, 63%, 64%)); 
     cursor: pointer;
     padding-bottom: 5px;
-}
-
-footer{
-    
 }
 

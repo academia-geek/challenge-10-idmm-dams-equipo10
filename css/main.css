@@ -1,0 +1,71 @@
+body{
+    Font-size: 15px;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    background-color: linear-gradient(-90deg , hsl(235, 11%, 46%), hsl(237, 63%, 64%));
+    
+
+  
+   
+}
+li{
+    
+    color: #808994;
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+    font-size: small;
+    
+}
+ul{
+    height: 88%;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 0%;
+}
+h4{
+    padding-top: 2em;
+    text-align: center;
+    font-size: small;
+}
+/*header{
+    display: flex;
+    flex-flow: row nowrap;
+    background-image: url( /images/bg-top.svg); /* no repetir
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+}*/
+
+.contenedor{
+ 
+    margin-top: 15em;
+
+}
+
+.tarjeta{
+    background-color: rgb(248, 245, 245);
+    border-radius: 5%;
+    height: 400px;
+    width: 300px;
+    /*box-shadow: 10px -1px rgb(237, 240, 240);*/
+}
+.btn{
+    width: 80%;
+    background: linear-gradient(-90deg , hsl(235, 11%, 46%), hsl(237, 63%, 64%)); 
+    cursor: pointer;
+}
+
+footer{
+    
+}
+

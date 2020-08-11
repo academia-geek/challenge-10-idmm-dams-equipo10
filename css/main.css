@@ -65,7 +65,7 @@ h1 {
     display: block;
     width: 25px;
     height: 25px;
-    background: white;
+    background: rgb(240, 235, 235);
     border-radius: 100px;
     position: relative;
     top: 4px;
@@ -91,8 +91,9 @@ h1 {
 
 
 li{    
-    color: hsl(234, 14%, 74%);
-    border-top: 2px solid;
+    /* color: hsl(232, 11%, 60%); */
+    border-top: 1px solid;
+    border-color:  hsl(231, 23%, 84%);;
     list-style: none;
     position: relative;
     width: 100%;
@@ -141,13 +142,35 @@ h4{
     border-radius: 5%;
     height: 400px;
     width: 300px;
-    /*box-shadow: 10px -1px rgb(237, 240, 240);*/
+    box-shadow: 10px -1px rgb(237, 240, 240);
+    -webkit-transition: height .5s;
 }
 .btn{
     width: 80%;
     left: 36px;
-    background: linear-gradient(-90deg , hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    background-color: hsl(236, 72%, 79%); 
+    /* background-color: red; */
     cursor: pointer;
     padding-bottom: 5px;
 }
+
+.tarjeta:hover {
+    height: 600px;
+    background: linear-gradient(-90deg , hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    opacity: 50;
+    
+    
+    
+    
+   
+   
+
+}
+
+article:hover button{
+    background-color: white;
+    color:  hsl(237, 63%, 64%);
+}
+
 

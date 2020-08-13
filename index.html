@@ -71,9 +71,9 @@
                             <article class="row">
                               <article class="col-7">
                                 <div class="form-group">
-                                  <label for="exampleInputEmail1" id="correo">Correo Electrónico:</label>
+                                  <label for="exampleInputEmail1" id="correo">Correo Electrónico (*)</label>
                                   <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico">
+                                    aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico" required>
                                   <small id="emailHelp" class="form-text text-muted"></small>
                                 </div>
                               </article>
@@ -82,10 +82,16 @@
                     </div>
                   </div>
                 </div>
+
+               
+
+
                 <div class="modal-footer">
-                  <article class="col-5">
-                    <button type="button" class="btn btn-secondary modal-sm data-dismiss= ">Cerrar</button>
-                    <button type="button" class="btn btn-primary modal-sm mt-2">Enviar</button>
+                  <article class="column">
+                    <article class="col-12">
+                      <button type="button" class="btn btn-secondary modal-sm" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary modal-sm mt-2" id="enviar">Enviar</button>
+                    </article>
                   </article>
                 </div>
               </div>
@@ -137,11 +143,13 @@
               </div>
             </div>
             <div class="modal-footer">
-              <article class="col-5">
-                <button type="button" class="btn btn-secondary modal-sm data-dismiss= ">Cerrar</button>
-                <button type="button" class="btn btn-primary modal-sm mt-2">Enviar</button>
-              </article>
-            </div>
+                  <article class="column">
+                    <article class="col-12">
+                      <button type="button" class="btn btn-secondary modal-sm" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary modal-sm mt-2" id="enviar">Enviar</button>
+                    </article>
+                  </article>
+                </div>
           </div>
     </div>
     </div>
@@ -188,14 +196,16 @@
                         </article>
                   </form>
                 </div>
-
               </div>
-            </div>
+            </div>            
             <div class="modal-footer">
-              <article class="col-5">
-                <button type="button" class="btn btn-secondary modal-sm data-dismiss= ">Enviar</button>
-                <button type="button" class="btn btn-primary modal-sm mt-2">Cerrar</button>
+              <article class="column">
+                <article class="col-12">
+                  <button type="button" class="btn btn-secondary modal-sm" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary modal-sm mt-2" id="enviar">Enviar</button>
+                </article>
               </article>
+            </div>
             </div>
           </div>
     </div>
